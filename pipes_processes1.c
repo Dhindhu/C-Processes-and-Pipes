@@ -99,7 +99,7 @@ int main()
       
       
         // Ask user for their input
-        printf("What is the second string to concatenate? ");
+        printf("Child string to concatenate: ");
         scanf("%s", input_str_2);
         
         write(fd2[1], input_str_2, strlen(input_str_2)+1);
